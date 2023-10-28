@@ -1,0 +1,15 @@
+display("BluePoint's Demonstration of Functions and Variables Using Echo")
+
+{function} main():
+    var:name = uinput("What Is your Name?")
+    var:age = uinput("How Old Are You?")
+    if name not type str:
+        echo.value-error("Name not str")
+    alsoif age not type int:
+        echo.value-error("Name not int")
+    other:
+        greet(name, age)
+
+{function} greet(name, age):
+    display("Hello, " name "!")
+    display("You are " age "Years old!")

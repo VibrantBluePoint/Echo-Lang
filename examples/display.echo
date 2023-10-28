@@ -1,0 +1,10 @@
+echofile.initiate
+
+display("Hello, World!")
+
+# This is a comment, it does not actually do anything
+
+if 1 + 2 === 3:
+    display("1 + 2 is Three")
+other:
+    display("1 + 2 is not Three")
